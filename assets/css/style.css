@@ -3,16 +3,29 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
-/*.size-cover{
-    background-image: url('../img/bg_hero.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 10rem;
-    height: 737px;
-}*/
 
 h1{
-padding-top: 180px;
+padding-top: 50px;
 font-size: 72px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.texto{
+    
+    position: absolute;
+    margin-top: -290px;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    
 }
